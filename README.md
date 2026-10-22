@@ -11,7 +11,7 @@
 
 ## 작은 웹 도구
 
-- [K_Army_qr](https://github.com/K-Lunatic/K_Army_qr): QR 접속용 안내와 행사 배치도 화면. 공개 자료 범위는 저장소 안내를 참고하세요.
+- [K_Army_qr](https://github.com/K-Lunatic/K_Army_qr): 행정병 근무 중 만든 QR 접속 안내·행사 배치도 업무 도구. 공개 자료 범위는 저장소 안내를 참고하세요.
 
 ## 학습과 실험
 
