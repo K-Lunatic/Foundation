@@ -2,7 +2,7 @@
 
 **게임 · 임베디드 · 인공지능**을 중심으로, 입력과 데이터를 사용자 경험으로 연결하는 도구를 만듭니다.
 
-[연구 관심과 프로젝트 설명](RESEARCH.md) · [Notability 자동화 코드와 데모](tools/notability-study/README.md) · [학습 기반](https://github.com/K-Lunatic/Bedrock/tree/portfolio-readme-refresh)
+[프로젝트 목적·구현·배포](PROJECTS.md) · [연구 관심과 프로젝트 설명](RESEARCH.md) · [Notability 자동화 코드와 데모](tools/notability-study/README.md) · [학습 기반](https://github.com/K-Lunatic/Bedrock/tree/portfolio-readme-refresh)
 
 ## 먼저 살펴볼 작업
 
