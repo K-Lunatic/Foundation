@@ -24,13 +24,7 @@ AI 분야의 현재 강점은 기존 모델을 활용하는 도구와 데이터 
 ## 다른 경험과 기반
 
 - [K_Army_qr](https://github.com/K-Lunatic/K_Army_qr/tree/portfolio-readme-refresh): 행정병 근무 당시의 QR 안내·행사 배치도 업무 도구.
-- [Our-Frequency 과제 제출판](https://github.com/K-Lunatic/Our-Frequency/tree/portfolio-readme-refresh): 입력·결과·궁합 시각화. 실제 본 프로젝트 Our-Frequency_org는 별도 비공개 저장소입니다.
+- [Our-Frequency 과제 제출판](https://github.com/K-Lunatic/Our-Frequency/tree/portfolio-readme-refresh): 입력·결과·궁합 시각화.
 - [Bedrock](https://github.com/K-Lunatic/Bedrock/tree/portfolio-readme-refresh): C, 통합 Java, 자료구조, 컴퓨터구조, 운영체제, 데이터베이스와 24문항 복습 팩.
-
-## 공개 범위
-
-여기에는 강의 원본·교수님 이미지·개인 필기·녹음을 넣지 않습니다. Dive와 BillPhoto는 자료 분리와 대체 데이터 준비가 끝나기 전까지 공개용 대표작에서 제외합니다.
-
-이 페이지와 연결된 설명은 검토 브랜치 기준입니다. 기존 저장소별 README에는 실행 방법·검증 범위·제약이 있습니다. 모델·실기기 성능을 측정하지 않은 항목은 결과로 주장하지 않습니다.
 
 [GitHub 프로필](https://github.com/K-Lunatic)
