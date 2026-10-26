@@ -1,0 +1,7 @@
+# Local Python caches and extracted private notes
+__pycache__/
+*.pyc
+*.note
+*.ntb
+*.nbn/
+.notability-output/
