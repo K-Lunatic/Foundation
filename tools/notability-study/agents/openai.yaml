@@ -1,0 +1,4 @@
+interface:
+  display_name: "Notability Study"
+  short_description: "Notability 녹음·전사·필기를 읽고 외부 강의와 개념을 연결"
+  default_prompt: "$notability-study로 최근 강의 노트의 녹음과 전사를 확인하고 필기 개념을 연결해 줘."
