@@ -4,7 +4,7 @@
 
 **[BID! LIMIT](https://github.com/K-Lunatic/bid-limit)** — Godot으로 만든 4인 경매 카드 게임. WebRTC로 방에 접속하고 브라우저에서 음성 채팅을 할 수 있습니다. [플레이](https://bid-limit.vercel.app/)
 
-**[터틀넥](https://github.com/K-Lunatic/Turtleneck)** — 과제와 강의자료를 확인하고, 자료로 만든 문제를 웹 시험지에서 풀어보는 도구입니다.
+**[터틀넥](https://github.com/K-Lunatic/Turtleneck)** — 해커톤에서 시작한 학습 도구입니다. 과제와 강의자료를 확인하고, 강의자료로 만든 문제를 웹 시험지에서 풀어볼 수 있습니다.
 
 **[Notability Study](tools/notability-study/README.md)** — 필기하다 놓친 설명을 다시 듣기 위해 필기, 녹음, 전사를 연결했습니다.
 
