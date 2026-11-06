@@ -20,9 +20,14 @@
 
 물품·일정·식단·재무 기록을 모아두고 채팅으로 조회하거나 수정할 수 있게 만들었습니다. Next.js와 MySQL을 라즈베리파이 한 대에 올릴 수 있도록 Docker로 구성했습니다.
 
+## Angel24 · 일산 서코 부스 키오스크
+
+블루아카이브를 좋아해서 일산 서울코믹월드에 팬 부스를 열었습니다. 부스에서 방문객이 굿즈를 둘러보고 주문할 수 있도록 터치 키오스크를 만들었고, 상품과 주문을 관리하는 화면도 따로 만들었습니다. 두 화면은 Vercel에 배포하고 Firebase로 연결했습니다.
+
+[고객용 키오스크 둘러보기](https://angel24-kiosk.vercel.app/)
+
 ## 그 밖에 만든 것
 
-- **Angel24** — 고객용 키오스크와 운영자 화면을 나눠 Vercel에 배포하고, Firebase로 상품과 주문을 연결했습니다.
 - **[Our-Frequency 과제 제출판](https://github.com/K-Lunatic/Our-Frequency)** — 질문에 답하면 성향을 시각화한 결과를 볼 수 있습니다. [체험](https://our-frequency.vercel.app/)
 - **HOP Web Editor** — 브라우저에서 HWP/HWPX를 열고 편집할 수 있도록 WASM 문서 엔진에 화면과 반복 치환 기능을 붙였습니다.
 - **Safety Monitor** — Windows에서 C로 수집한 네트워크 정보를 UDP로 보내고, 웹 화면에서 확인합니다.
