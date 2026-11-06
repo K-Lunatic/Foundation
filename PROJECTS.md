@@ -1,5 +1,7 @@
 # 만든 것들
 
+[Roomcon](https://roomcon.team/)에서는 매달 하나씩 새 프로젝트를 만들 계획입니다. BID! LIMIT은 Roomcon의 첫 번째 프로젝트입니다.
+
 **[BID! LIMIT](https://github.com/K-Lunatic/bid-limit)** — Godot으로 만든 4인 경매 카드 게임. WebRTC로 방에 접속하고 브라우저에서 음성 채팅을 할 수 있습니다. [플레이](https://bid-limit.vercel.app/)
 
 **[터틀넥](https://github.com/K-Lunatic/Turtleneck)** — 과제와 강의자료를 확인하고, 자료로 만든 문제를 웹 시험지에서 풀어보는 도구입니다.
