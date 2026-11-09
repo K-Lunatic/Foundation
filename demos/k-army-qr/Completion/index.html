@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25연대 1교육대 수료식 배치도</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>3중대 수료식 배치도</h1>
+
+    <div class="highlight-container">
+        <input type="text" id="highlight-input" placeholder="검색할 교번이나 이름을 입력하세요">
+        <button onclick="highlightText()">하이라이트</button>
+    </div>
+
+
+    <div class="table-container">
+        <table id="data-table">
+        </table>
+    </div>
+
+
+    <div class="section-divider">
+        <span class="square">사열대</span>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script>
+
+        const csvFilePath = 'data.csv';
+
+
+    fetch(csvFilePath)
+            .then(response => response.arrayBuffer())
+            .then(buffer => {
+                // UTF-8 1차 시도
+                let decoder = new TextDecoder("utf-8");
+                let text = decoder.decode(buffer);
+
+                // '�' 문자가 많으면 EUC-KR로 재시도
+                if ((text.match(/�/g) || []).length > 5) {
+                    decoder = new TextDecoder("euc-kr");
+                    text = decoder.decode(buffer);
+                }
+
+                const parsedData = Papa.parse(text, {
+                    header: false,
+                    dynamicTyping: true,
+                    skipEmptyLines: true
+                });
+                createTable(parsedData.data);
+            })
+            .catch(error => {
+                console.error('CSV 파일 로드 실패:', error);
+            });
+
+
+
+        function createTable(csvData) {
+            const table = document.getElementById("data-table");
+            table.innerHTML = "";
+
+
+            const tbody = document.createElement("tbody");
+            for (let i = 0; i < csvData.length; i++) {
+                const row = document.createElement("tr");
+                for (let j = 0; j < 21; j++) {
+                    const td = document.createElement("td");
+                    td.textContent = csvData[i][j] || '';
+                    row.appendChild(td);
+                }
+                tbody.appendChild(row);
+            }
+            table.appendChild(tbody);
+        }
+
+        function highlightText() {
+            const input = document.getElementById("highlight-input").value.trim().toLowerCase();
+            const table = document.getElementById("data-table");
+            const rows = table.getElementsByTagName("tr");
+
+            if (!input) {
+                alert('찾는 교번/이름을 입력해주세요.');
+                return;
+            }
+
+            Array.from(rows).forEach(row => {
+                Array.from(row.getElementsByTagName("td")).forEach(cell => {
+                    cell.classList.remove("highlight");
+                });
+            });
+
+            Array.from(rows).forEach(row => {
+                Array.from(row.getElementsByTagName("td")).forEach(cell => {
+                    const cellText = cell.textContent.trim().toLowerCase(); 
+
+                    if (cellText.includes(input)) {
+                        cell.classList.add("highlight");
+                    }
+                });
+            });
+        }
+    </script>
+
+</body>
+</html>

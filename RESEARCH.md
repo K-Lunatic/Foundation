@@ -14,7 +14,7 @@
 
 **설계에서 볼 점:** 학교 연결과 학습 기능의 분리, 자료 근거를 가진 문제, 기록의 재사용, 시험 화면에 노출되는 정보의 분리입니다.
 
-**코드:** [프로젝트 설명](https://github.com/K-Lunatic/Turtleneck/tree/portfolio-readme-refresh), [학습 파이프라인](https://github.com/K-Lunatic/Turtleneck/blob/portfolio-readme-refresh/skills/university-agent/features/study_pipeline.py), [검증 기록](https://github.com/K-Lunatic/Turtleneck/blob/portfolio-readme-refresh/skills/university-agent/references/project-tests.md).
+**코드:** [프로젝트 설명](https://github.com/K-Lunatic/Turtleneck), [학습 파이프라인](https://github.com/K-Lunatic/Turtleneck/blob/turtleneck/skills/university-agent/features/study_pipeline.py), [검증 기록](https://github.com/K-Lunatic/Turtleneck/blob/turtleneck/skills/university-agent/references/project-tests.md).
 
 **연구로 확장할 질문:** 원문 근거를 함께 제시하면 생성 문제의 오류를 더 잘 발견할 수 있는가? 문제 정확도·근거 일치·중복률을 별도로 평가할 수 있습니다. 실제 학습 효과나 성적 향상은 아직 측정하지 않았습니다.
 
@@ -32,19 +32,19 @@
 
 ## 3. Catpera — 음악과 3D 장면의 반응
 
-MIDI 트랙과 오디오 재생을 고양이 연주자·무대 애니메이션으로 연결한 브라우저 프로젝트입니다. [구조와 실행](https://github.com/K-Lunatic/Catpera/tree/portfolio-readme-refresh)에서 재생·시각화 흐름을 볼 수 있습니다.
+MIDI 트랙과 오디오 재생을 고양이 연주자·무대 애니메이션으로 연결한 브라우저 프로젝트입니다. [프로젝트 소개](PROJECTS.md#catpera-symphony--음악에-반응하는-3d-오케스트라)에서 재생·시각화 흐름을 볼 수 있습니다.
 
 메타버스와 연결되는 기반은 3D 공간의 반응과 멀티미디어 상호작용입니다. 네트워크 다중 사용자·아바타 동기화·VR·AI 캐릭터가 구현됐다고 주장하지 않습니다. 향후 이벤트-애니메이션 지연과 재생 상태 일관성을 측정하는 과제로 확장할 수 있습니다. 현재 실시간 성능 수치를 제시하지 않습니다.
 
 ## 4. Void — 실공간 입력과 시청각 반응
 
-휴대폰이 내는 고주파 신호를 전시 화면의 마이크로 감지하고 화면·소리 반응으로 연결하는 실험입니다. [구조와 실행](https://github.com/K-Lunatic/Void/tree/portfolio-readme-refresh)에 입력·감지·상태 전환을 설명했습니다.
+휴대폰이 내는 고주파 신호를 전시 화면의 마이크로 감지하고 화면·소리 반응으로 연결하는 실험입니다. [프로젝트 소개](PROJECTS.md#catpera-symphony--음악에-반응하는-3d-오케스트라)에 입력·감지·상태 전환을 설명했습니다.
 
 메타버스 관심과 연결되는 지점은 현실 기기의 입력을 디지털 경험으로 변환하는 과정입니다. 현재는 주파수 분석·임계값 기반 감지이며 학습된 분류 모델이 아닙니다. 장비·거리·소음 조건별 오탐·미탐을 기록한 뒤 분류 모델과 비교하는 것이 가능한 다음 연구입니다. 실제 음향 장비 보정과 실험은 별도입니다.
 
 ## 공통 기반과 다음 단계
 
-[Bedrock](https://github.com/K-Lunatic/Bedrock/tree/portfolio-readme-refresh)에 여섯 과목을 정리했습니다. C/C++·자료구조·컴퓨터구조·운영체제는 게임과 임베디드의 기반으로, Java·데이터베이스는 도구 구현과 데이터 관리에 연결합니다.
+[Bedrock](https://github.com/K-Lunatic/Bedrock)에 여섯 과목을 정리했습니다. C/C++·자료구조·컴퓨터구조·운영체제는 게임과 임베디드의 기반으로, Java·데이터베이스는 도구 구현과 데이터 관리에 연결합니다.
 
 첫 연구 과제로는 범위를 좁혀 **Notability의 개념-전사 후보 검색 평가**를 제안할 수 있습니다. 소규모 동의 데이터, 사람이 확인한 정답, 단순 기준선, 실패 분석부터 시작합니다. 교수님의 연구 주제에 따라 범위와 방법을 배우며 조정하려는 관심이며, 특정 연구실의 연구 내용을 확인한 맞춤 제안은 아닙니다.
 

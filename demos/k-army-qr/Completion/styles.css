@@ -1,0 +1,144 @@
+/* 기본 스타일 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    background-color: #1a2b3c;
+    color: white;
+    padding: 20px;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+
+.highlight-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#highlight-input {
+    padding: 12px;
+    width: 60%;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #333;
+    margin-right: 10px; 
+}
+
+button {
+    padding: 12px;
+    background-color: #1a2b3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #15354b;
+}
+
+
+.table-container {
+    padding: 20px;
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 1.2rem;
+    color: #333;
+    white-space: nowrap;
+}
+
+tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+td:first-child { border-left: 2px solid black; }
+td:nth-child(7n) { border-right: 2px solid black; }
+tr:first-child td { border-top: 2px solid black; }
+tr:last-child td { border-bottom: 2px solid black; }
+
+.highlight {
+    background-color: #f4b400; 
+}
+
+
+.section-divider {
+    position: relative;
+    margin: 30px 0;
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: #1a2b3c;
+    text-align: center;
+}
+
+.section-divider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #1a2b3c;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+.section-divider .square {
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #1a2b3c;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: -30px;
+}
+
+
+@media (max-width: 600px) {
+    table {
+        font-size: 1rem;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    button, #highlight-input {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .section-divider {
+        font-size: 1.5rem;
+    }
+}

@@ -1,6 +1,6 @@
 # 만든 것들
 
-[Roomcon](https://roomcon.team/)에서는 매달 하나씩 새 프로젝트를 만들 계획입니다. BID! LIMIT은 Roomcon의 첫 번째 프로젝트입니다.
+[Roomcon](https://roomcon.team/)에서는 매달 하나씩 새 프로젝트를 만들 계획입니다. BID! LIMIT은 Roomcon 첫 회차에서 만든 게임입니다.
 
 **[BID! LIMIT](https://github.com/K-Lunatic/bid-limit)** — Godot으로 만든 4인 경매 카드 게임. WebRTC로 방에 접속하고 브라우저에서 음성 채팅을 할 수 있습니다. [플레이](https://bid-limit.vercel.app/)
 
@@ -37,4 +37,4 @@
 - **[Our-Frequency 과제 제출판](https://github.com/K-Lunatic/Our-Frequency)** — 질문에 답하면 성향을 시각화한 결과를 볼 수 있습니다. [체험](https://our-frequency.vercel.app/)
 - **HOP Web Editor** — 브라우저에서 HWP/HWPX를 열고 편집할 수 있도록 WASM 문서 엔진에 화면과 반복 치환 기능을 붙였습니다.
 - **Safety Monitor** — Windows에서 C로 수집한 네트워크 정보를 UDP로 보내고, 웹 화면에서 확인합니다.
-- **[K_Army_qr](https://github.com/K-Lunatic/K_Army_qr)** — 행정병 근무 중 QR로 행사 안내와 배치도를 보여주기 위해 만든 페이지입니다.
+- **[K_Army_qr](demos/k-army-qr/README.md)** — 행정병 근무 중 QR로 행사 안내와 배치도를 보여주기 위해 만든 페이지입니다.
