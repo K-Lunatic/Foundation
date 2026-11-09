@@ -10,17 +10,17 @@
 
 ## Catpera Symphony · 음악에 반응하는 3D 오케스트라
 
-직접 만든 고양이 모델이 MIDI 악기별로 움직이는 브라우저 오케스트라입니다. Vercel에 배포했습니다.
+직접 만든 고양이 모델이 MIDI 악기별로 움직이는 브라우저 오케스트라입니다. Vercel에 배포했습니다. [코드](https://github.com/K-Lunatic/catpera-public)
 
-**Void** — 휴대폰에서 낸 고주파 소리를 전시장 마이크가 감지하면 화면과 배경음이 바뀝니다. 두 화면은 Vercel에 배포했습니다.
+**Void** — 휴대폰에서 낸 고주파 소리를 전시장 마이크가 감지하면 화면과 배경음이 바뀝니다. 두 화면은 Vercel에 배포했습니다. [코드](https://github.com/K-Lunatic/void-public)
 
 ## 졸업할KU야 · GradKUya
 
-성적표 PDF와 입학연도 요람을 대조해 남은 졸업요건을 확인하고, 시간표 후보를 비교합니다.
+성적표 PDF와 입학연도 요람을 대조해 남은 졸업요건을 확인하고, 시간표 후보를 비교합니다. [코드와 예제 데이터](https://github.com/K-Lunatic/gradkuya-public)
 
 ## Logics · INK — 생활 데이터를 실행 가능한 도구로
 
-물품·일정·식단·재무 기록을 모아두고 채팅으로 조회하거나 수정할 수 있게 만들었습니다. Next.js와 MySQL을 라즈베리파이 한 대에 올릴 수 있도록 Docker로 구성했습니다.
+물품·일정·식단·재무 기록을 모아두고 채팅으로 조회하거나 수정할 수 있게 만들었습니다. Next.js와 MySQL을 라즈베리파이 한 대에 올릴 수 있도록 Docker로 구성했습니다. [코드](https://github.com/K-Lunatic/logics-public)
 
 ## Angel24 · 일산 서코 부스 키오스크
 
