@@ -32,6 +32,8 @@
 
 행사에서 직접 운영한 포토부스입니다. 참가자가 사진을 찍고 세 장을 고르면 한 장으로 합성하고, 블루투스 영수증 프린터로 출력할 수 있게 만들었습니다. 사진 파일은 Discord 웹훅으로 보내 첨부 파일로 보관했고, Redis에는 다운로드에 필요한 사진 주소만 저장했습니다.
 
+[시연본 열기](https://k-lunatic.github.io/billphoto-demo/)
+
 ## 그 밖에 만든 것
 
 - **[Our-Frequency 과제 제출판](https://github.com/K-Lunatic/Our-Frequency)** — 질문에 답하면 성향을 시각화한 결과를 볼 수 있습니다. [체험](https://our-frequency.vercel.app/)
