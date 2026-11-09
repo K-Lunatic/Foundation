@@ -7,4 +7,4 @@ Godot으로 4인 경매 게임을 만들고, 학교 공부와 행사에서 직�
 - **[Angel24](PROJECTS.md#angel24--일산-서코-부스-키오스크)** — 일산 서울코믹월드 팬 부스에서 사용한 굿즈 주문 키오스크. [둘러보기](https://angel24-kiosk.vercel.app/)
 - **[BillPhoto](PROJECTS.md#billphoto--행사-포토부스)** — 행사에서 운영한 포토부스. 사진 세 장을 합쳐 블루투스 프린터로 출력합니다.
 
-[만든 것들](PROJECTS.md) · [연구 관심](RESEARCH.md) · [학습 기록](https://github.com/K-Lunatic/Bedrock) · [GitHub 프로필](https://github.com/K-Lunatic)
+[만든 것들](PROJECTS.md) · [연구 관심](RESEARCH.md) · [학습 기록](https://github.com/K-Lunatic/Bedrock/tree/portfolio-readme-refresh) · [GitHub 프로필](https://github.com/K-Lunatic)
