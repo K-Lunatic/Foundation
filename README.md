@@ -1,25 +1,10 @@
-# 🧱 Foundation
+# Luna · 프로젝트 모음
 
-> **From learning to building.**  
-> 배운 것을 실제 프로젝트로 만들고, 완성한 결과물을 모아두는 공간입니다.
+Godot으로 4인 경매 게임을 만들고, 학교 공부와 행사에서 직접 쓸 도구를 만들어 왔습니다.
 
-Foundation is a **project showcase**, not a place to duplicate every project's source code.  
-Each project lives in its own repository; this page connects the work.
+- **[BID! LIMIT](https://github.com/K-Lunatic/bid-limit)** — [Roomcon](https://roomcon.team/) 첫 회차에서 만든 4인 경매 카드 게임. [플레이](https://bid-limit.vercel.app/)
+- **[터틀넥](https://github.com/K-Lunatic/Turtleneck)** — 해커톤에서 시작한 학습 도구. 강의자료로 문제를 만들고 웹 시험지에서 풀어볼 수 있습니다.
+- **[Angel24](PROJECTS.md#angel24--일산-서코-부스-키오스크)** — 일산 서울코믹월드 팬 부스에서 사용한 굿즈 주문 키오스크. [둘러보기](https://angel24-kiosk.vercel.app/)
+- **[BillPhoto](PROJECTS.md#billphoto--행사-포토부스)** — 행사에서 운영한 포토부스. 사진 세 장을 합쳐 블루투스 프린터로 출력합니다.
 
-## 🚀 Featured Projects
-
-| Project | Description | Stack / Focus |
-| :--- | :--- | :--- |
-| 🐢 **[Turtleneck · University Agent](https://github.com/K-Lunatic/CS2026-Hackerton)** | 대학 과제·강의·학습자료를 연결하고 시험 공부를 돕는 AI 스킬 / 해커톤 프로젝트 | Python · AI agents · Codex / Claude Code |
-| 📷 **[BillPhoto](https://github.com/K-Lunatic/BillPhoto)** | Next.js 기반 웹 프로젝트 | Next.js · TypeScript |
-| 🌐 **[Our-Frequency](https://github.com/K-Lunatic/Our-Frequency)** | React 기반 크로스 플랫폼 경험을 탐색하는 프로젝트 | React · Vite · TypeScript |
-
-## 🧭 How this fits together
-
-- 🗻 **[Bedrock](https://github.com/K-Lunatic/Bedrock)** — Learn: 기초 개념과 학습 기록
-- 🧱 **Foundation** — Build: 대표 프로젝트와 구현 결과
-- 🥼 **[Experiment](https://github.com/K-Lunatic/Experiment)** — Explore: 새로운 시도와 실험 기록
-
----
-
-<sub>🌕 Part of [Luna's Learning record](https://github.com/K-Lunatic).</sub>
+[만든 것들](PROJECTS.md) · [연구 관심](RESEARCH.md) · [학습 기록](https://github.com/K-Lunatic/Bedrock/tree/portfolio-readme-refresh) · [GitHub 프로필](https://github.com/K-Lunatic)
