@@ -1,0 +1,5 @@
+:root{font:18px/1.6 system-ui;color:#172554;background:#f1f5f9}
+body{max-width:44rem;margin:3rem auto;padding:0 1.2rem} h1,h2{line-height:1.2}
+section,fieldset{background:white;border:1px solid #cbd5e1;border-radius:12px;padding:1.25rem;margin:1rem 0}
+button{background:#164e63;color:white;border:0;border-radius:8px;padding:.6rem 1rem;font:inherit;cursor:pointer}
+label{display:block;padding:.3rem} a{color:#075985} output{display:block;font-weight:bold}
