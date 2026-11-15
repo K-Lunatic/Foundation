@@ -56,7 +56,7 @@
 
 해커톤에서 학교 공지, 과제, 강의자료를 여러 화면에서 확인하던 일을 줄이려고 시작했습니다. 강의자료에서 복습 문제를 만들고 웹 시험지에서 직접 풀 수 있는 흐름도 붙였습니다.
 
-[코드와 사용법](https://github.com/K-Lunatic/Turtleneck)
+[예제 시험지 풀기](https://k-lunatic.github.io/Foundation/turtleneck/) · [코드와 사용법](https://github.com/K-Lunatic/Turtleneck)
 
 ### Logics · INK — 생활 데이터를 실행 가능한 도구로
 
@@ -68,7 +68,7 @@
 
 성적표와 입학연도 요람을 손으로 대조하는 일을 줄이려고 만들었습니다. 성적표 PDF에서 과목을 읽고 졸업요건을 대조한 뒤, 남은 요건과 수강 시간표 후보를 확인할 수 있습니다.
 
-[코드와 예제 데이터](https://github.com/K-Lunatic/gradkuya-public)
+[가상 성적표 결과](https://k-lunatic.github.io/Foundation/gradkuya/) · [코드와 예제 데이터](https://github.com/K-Lunatic/gradkuya-public)
 
 ### Notability Study
 
