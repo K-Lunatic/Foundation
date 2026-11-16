@@ -8,7 +8,7 @@
 
 ### BID! LIMIT
 
-[Roomcon](https://roomcon.team/) 첫 회차에서 만든 4인 경매 카드 게임입니다. 별도 설치 없이 모여서 플레이할 수 있게 Godot 웹 빌드를 Vercel에 올렸습니다. 방에 접속하는 흐름부터 WebRTC를 이용한 멀티플레이와 브라우저 음성 채팅까지 구현했습니다. Roomcon에서는 매달 새 주제로 하나씩 만들 계획입니다.
+[Roomcon](https://roomcon.team/) 첫 회차에 참여하면서 혼자 개발한 4인 경매 카드 게임입니다. 별도 설치 없이 모여서 플레이할 수 있게 Godot 웹 빌드를 Vercel에 올렸습니다. 방에 접속하는 흐름부터 WebRTC를 이용한 멀티플레이와 브라우저 음성 채팅까지 구현했습니다. Roomcon에서는 매달 새 주제로 하나씩 만들 계획입니다.
 
 [코드](https://github.com/K-Lunatic/bid-limit) · [플레이](https://bid-limit.vercel.app/)
 
@@ -16,7 +16,7 @@
 
 악기 소리를 시각적으로 구분해 볼 수 있게, 직접 모델링한 고양이에 MIDI 악기를 배정하고 연주에 맞춰 움직이도록 만들었습니다. 브라우저에서 실행되며 Vercel에 배포했습니다.
 
-[코드와 MIDI 예제](https://github.com/K-Lunatic/catpera-public)
+[코드와 MIDI 예제](https://github.com/K-Lunatic/catpera-public) · [체험](https://k-lunatic.github.io/catpera-public/)
 
 ### Void
 
