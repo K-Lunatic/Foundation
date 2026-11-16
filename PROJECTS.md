@@ -16,7 +16,7 @@
 
 악기 소리를 시각적으로 구분해 볼 수 있게, 직접 모델링한 고양이에 MIDI 악기를 배정하고 연주에 맞춰 움직이도록 만들었습니다. 브라우저에서 실행되며 Vercel에 배포했습니다.
 
-[코드와 MIDI 예제](https://github.com/K-Lunatic/catpera-public) · [체험](https://catpera.vercel.app/)
+[코드와 MIDI 예제](https://github.com/K-Lunatic/catpera-public)
 
 ### Void
 
