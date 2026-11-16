@@ -1,15 +1,63 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>터틀넥 · 연습 시험지</title><link rel="stylesheet" href="../style.css"><script src="quiz.js" defer></script></head>
-<body><main><h1>터틀넥 · 연습 시험지</h1>
-<p>예제 자료를 읽고 두 문제를 풀어 보세요. 문제와 해설은 이 체험용으로 준비했으며 채점은 브라우저에서 진행됩니다.</p>
-<section><h2>예제 강의자료 · 운영체제</h2><ol><li>한 프로세스의 스레드는 같은 주소 공간을 사용하지만 각각의 스택을 가진다.</li><li>교착 상태의 필요조건에는 상호 배제, 점유 대기, 비선점, 순환 대기가 있다.</li></ol></section>
-<form id="exam">
-<fieldset data-answer="stack" data-explanation="스레드마다 함수 호출과 지역 변수를 기록할 스택이 있어요. (예제 자료 1항)">
-<legend>1. 같은 프로세스에서 스레드별로 따로 가지는 것은?</legend>
-<label><input type="radio" name="one" value="heap" required> 힙</label><label><input type="radio" name="one" value="stack"> 스택</label><p class="feedback" hidden></p></fieldset>
-<fieldset data-answer="cycle" data-explanation="서로의 자원을 원형으로 기다리는 상태는 순환 대기예요. (예제 자료 2항)">
-<legend>2. 서로의 자원을 원형으로 기다리는 상태는?</legend>
-<label><input type="radio" name="two" value="cycle" required> 순환 대기</label><label><input type="radio" name="two" value="preempt"> 선점</label><p class="feedback" hidden></p></fieldset>
-<button type="submit">채점하기</button> <button type="reset">다시 풀기</button><output id="score" aria-live="polite"></output></form>
-<p><a href="https://github.com/K-Lunatic/Turtleneck">터틀넥 설치 및 문제 생성 기능</a></p>
-</main></body></html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>터틀넥 연습 시험</title>
+<link rel="icon" href="./icon.svg">
+<link rel="stylesheet" href="./exam.css">
+<script src="./demo.js" defer></script>
+</head>
+<body>
+<header class="shell-bar">
+  <a class="brand" href="#"><img src="./icon.svg" alt="" width="32" height="32"><span>터틀넥</span></a>
+  <p id="bar-title" class="bar-title">연습 시험</p>
+  <div class="bar-status">
+    <section id="time-panel" class="time-panel" aria-label="시험 시간" hidden>
+      <p class="clock">푼 시간 <strong id="elapsed-time">00:00</strong></p>
+    </section>
+    <p id="saved" class="saved" role="status" aria-live="polite"></p>
+    <span id="phase" class="phase">시험지 준비 중</span>
+    <button id="history-toggle" class="bar-button" type="button">지난 시험</button>
+  </div>
+</header>
+<div id="exam" class="exam">
+  <aside class="rail" aria-label="문항 목록">
+    <div class="rail-head">
+      <h2>문항</h2>
+      <p id="progress" class="progress"></p>
+      <div class="progress-track" aria-hidden="true"><span id="progress-fill" class="progress-fill"></span></div>
+    </div>
+    <ol id="nav" class="rail-rows"></ol>
+    <div id="submit-area" class="submit-area" hidden>
+      <p id="confirm-text" class="confirm-text" role="alert" hidden></p>
+      <button id="submit" class="button primary" type="button">답안 제출하기</button>
+      <button id="cancel" class="button" type="button" hidden>계속 풀기</button>
+      <p class="submit-help">제출하면 데모 결과가 표시돼요.</p>
+    </div>
+  </aside>
+  <main class="paper">
+    <div class="paper-head">
+      <div class="paper-title">
+        <h1 id="title">클라우드 컴퓨팅 · 중간 점검</h1>
+        <p id="total" class="subtitle">학습 자료 기반 예제 시험 · 실제 학교 시험이나 예상 기출이 아니에요.</p>
+      </div>
+      <p id="score" class="score" hidden><span class="score-label">점수</span><span class="score-number"><span id="score-got"></span><span class="score-total"> / 100</span></span></p>
+    </div>
+    <p id="notice" class="notice" role="status" aria-live="polite" tabindex="-1"></p>
+    <section id="start-panel" class="start-panel" aria-labelledby="start-title">
+      <h2 id="start-title">준비됐나요?</h2>
+      <p>시작 버튼을 누르면 문제와 선택지가 공개되고 풀이 시간이 시작돼요. 실제 터틀넥은 이 화면에 로컬 문제은행의 문항을 채워요.</p>
+      <button id="start" class="button primary" type="button">시험 시작하기</button>
+    </section>
+    <section id="history-panel" class="history-panel" hidden aria-labelledby="history-title">
+      <div class="history-head"><h2 id="history-title">지난 시험</h2><button id="history-close" class="button quiet" type="button">닫기</button></div>
+      <p class="history-help">이 데모의 기록은 이 브라우저에만 저장돼요.</p>
+      <ul id="history-list" class="history-list"></ul>
+    </section>
+    <ol id="questions" class="questions" hidden></ol>
+    <p id="error" class="error" role="alert" hidden></p>
+  </main>
+</div>
+</body>
+</html>
